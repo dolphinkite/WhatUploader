@@ -1,0 +1,62 @@
+##
+## The type determines the type of files being uploaded
+##
+Type=music
+#Type=applications
+#Type=e-books
+#Type=elearning videos
+#Type=comedy
+#Type=comics
+
+##
+## The composer field represent a list of composers to be added to the list of artists. This is particularly useful for symphonic orchestras playing popular composers such as Chopin, Mozart, etc.
+##
+# composer=
+
+##
+## The Author field is only used for ebooks
+##
+#Author
+
+Record Label=PolyTel
+Catalogue Number=535-236-2
+
+##
+## The release type describes the cateroty of this release
+##
+#Release Type=Album
+#Release Type=Soundtrack
+#Release Type=EP
+#Release Type=Anthology
+#Release Type=Compilation
+Release Type=DJ Mix
+#Release Type=Single
+#Release Type=Live Album
+#Release Type=Remix
+#Release Type=Bootleg
+#Release Type=Interview
+#Release Type=Mixtape
+#Release Type=Unknown
+#Release Type=Concert Recording
+
+Media=CD
+#Media=DVD
+#Media=Vinyl
+#Media=Soundboard
+#Media=SACD
+#Media=DAT
+#Media=Cassette
+#Media=WEB
+#Media=Blu-ray
+
+
+Tags=dance,mc.mario
+Barcode=731453523623
+
+##
+## The Description string below will be ADDED to the automatically generated description that contains a song list, along with their respective length.
+##
+#Description=
+
+
+TOUP=FLAC,320,V0,V2

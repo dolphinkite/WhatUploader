@@ -1,0 +1,41 @@
+##   set your own values below
+##   make sure you leave the quotes and stuff
+
+USERNAME = 'XXX'
+PASSWORD = 'XXX'
+##default_folder = '/' 				## root
+##default_folder = re.escape('d:/temp/rip2/')
+default_folder = 'd:/temp/rip2/'
+
+verbose = True      ## should it print out status and stuff or just be quiet
+
+# When set to true, no torrent will be uploaded to the tracker
+noUpload=True
+
+#Those are only used for debugging purposes
+mediaConst='CD'
+releaseTypeConst='Album'
+additionalDescripton = False
+
+
+flac_path = 'd:/temp/rip2/flac.exe'
+
+##flac_path = 'c:\\Program\ Files\ \(x86\)\\Exact\ Audio\ Copy\\Flac\\flac.exe'
+##flac_path = 'c:/Program\ Files\ \(x86\)/Exact\ Audio\ Copy/Flac/flac.exe'
+##flac_path = ur'd:/temp/rip2/t t/flac.exe'
+##flac_path = r"d:/temp/rip2/t t/flac.exe"
+##flac_path = r"d:\temp\rip2\t t\flac.exe"
+##flac_path = "\"d:\temp\rip2\t t\flac.exe\""
+##flac_path = re.escape('d:\temp\rip2\t t\flac.exe')
+##flac_path = unicode('d:\temp\rip2\t t\flac.exe')
+##flac_path = re.escape('d:\temp\rip2\t t\flac.exe')
+##flac_path = re.escape('d:/temp/rip2/t t/flac.exe')
+
+##flac_path = re.escape('c:\Program Files (x86)\Exact Audio Copy\Flac\Flac')
+
+##lame_path = 'C:/Program\ Files\ \(x86\)/Illustrate/dBpoweramp/encoder/mp3\ \(Lame\)/lame.exe'
+##lame_path = re.escape('C:\Program Files (x86)\Illustrate\dBpoweramp\encoder\mp3 (Lame)\lame')
+lame_path = 'd:/temp/rip2/lame.exe'
+
+main_action = 'perfect_three_and_upload'
+##main_action = 'run'
